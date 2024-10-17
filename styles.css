@@ -1,0 +1,352 @@
+*{
+margin: 0;
+padding:0;
+}
+
+.picBlock{
+/*     position: relative; */
+background-image: url('img/picture.jpg');
+width: 100%;
+height: 900px;
+background-size: cover; 
+background-position: center; 
+
+}
+.pic{
+    max-width: 100%;
+    height: auto;
+    height: 100vh;
+    width: 100%;
+}
+/* .header{
+
+    justify-content:flex-start;
+    color:#fff;
+    width:119px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+ */
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    color: #fff; 
+}
+
+.rightBlock {
+    cursor: pointer;
+    margin-left: 50px; 
+    font-size: 32px;
+}
+
+.leftBlock {
+    cursor: pointer;
+    display: flex; 
+    gap: 35px; 
+    margin-right: 50px;
+   font-size: 16px;
+}
+
+.imageSearch{
+    width: 24px;
+    height: 24px;
+}
+.MainText{
+    color: #fff;
+    margin-top: 113px;
+    margin-left: 200px;
+}
+
+.BoldText{
+    font-size: 96px;
+    line-height: 116.18px;
+}
+.smalltext{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.btn{
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.TextInformation{
+margin-top: 190px;
+}
+
+.TextInformation{
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.lBlock{
+    margin-left: 200px;
+}
+
+.rBlock{
+    margin-right: 200px;
+}
+
+.number{
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.underNumberText{
+font-size: 16px;
+font-weight: 400;
+}
+
+.numTextBlock{
+    margin-top: 60px;
+}
+
+.boldTextRight{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61.6px;
+}
+
+.smallText{
+    margin-top: 60px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.smallText2{
+    margin-top: 20px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.video{
+    background-image: url('img/Rectangle\ 4.jpg');
+width: 1200px;
+height: 630px;
+background-size: cover; 
+background-position: center; 
+margin:190px auto 0 auto;
+
+}
+.ThirdBlock{
+    margin-top: 190px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.top{
+    display:flex;
+}
+.down{
+    display: flex;
+    margin-top: 180px;
+}
+
+.greyText{
+    color: grey;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.afterGreyText{
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.btnBlack{
+    margin-top: 50px;
+    width: 180px;
+    height: 60px;
+    font-size: 17px;
+    line-height: 20.57px;
+    font-weight: 600;
+    color: #fff;
+    background-color: black;
+}
+
+.pic2{
+    width: 570px;
+    height: 400px;
+    object-fit: cover; 
+    margin-left: 500px;
+}
+
+.pic3{
+    width: 570px;
+    height: 400px;
+    object-fit: cover; 
+
+}
+
+.textAndButton2{
+    margin-left: 110px;
+}
+
+.forthBlock{
+    display: block;
+    margin-top: 190px;
+    margin-left: 200px;
+}
+.quoute{
+    font-size: 16px;
+    line-height: 24px;
+    color: #838383;
+     font-weight: 400;
+     margin-bottom: 74px;
+}
+
+.textAfterQuoute{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color:#1D1D1F;
+    margin-bottom: 30px;
+}
+
+.nameOfAuthor{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.greyWords{
+    color: #838383;
+}
+
+.sliderPhoto{
+    margin-top: 190px;
+    width: 100%;
+    height: 900px;
+    object-fit: cover; 
+}
+.fifthBlock{
+    display: block;
+    margin-top: 190px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.firstfifthblock{
+
+display: flex;
+justify-content: space-between;
+padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #838383; 
+}
+
+.lastBlock{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height:400px;
+    width:100%;
+    margin-top: 190px;
+}
+
+.itemComp{
+    margin-top: 100px;
+    margin-left: 200px;
+    color: white;
+    font-size: 32px;
+    font-weight:500;
+    line-height: 41.6px;
+}
+.itemGreyWords{
+    color:grey;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.itemIcons{
+    margin-top: 20px;
+    margin-left: 180px;
+}
+.icon{
+    width:40px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.itemGreyWords
+{
+color: #838383;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+.itemUnderInput
+{
+    line-height: 41.6px;
+    font-size:32px;
+    font-weight: 500;
+ padding-right: 200px;
+    margin-top: 100px;
+    color:#fff;
+}
+.itemInput{
+    margin-top: 30px;
+    width: 570px;
+}
+.i{
+    width: 570px;
+}
+
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #838383;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #838383;
+    background-color: #000; /* Устанавливаем черный фон */
+    color: white; /* Цвет текста */
+    padding: 10px 40px 10px 0; /* Отступы внутри инпута */
+    width: 300px; /* Ширина инпута */
+    outline: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input:focus {
+    border-bottom: 1px solid white; /* Изменение цвета линии при фокусе */
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Центрируем стрелку по вертикали */
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.input-container {
+    margin-top: 50px;
+}
+
+.inputItem {
+    width: 470px;
+    background-color: #000; /* Устанавливаем черный фон */
+}
